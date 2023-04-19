@@ -87,7 +87,7 @@ print('''\nTesting
 
 
 try:
-    pts = 80
+    pts = 50
 
     xs = np.arange(100)
     n_each = 500
@@ -138,12 +138,12 @@ name = os.getcwd().split('/')[-1]
 
 print()
 print('='*70)
-print('{} Execution Grade is {} / 80'.format(name, exec_grade))
+print('{} Execution Grade is {} / 50'.format(name, exec_grade))
 print('='*70)
 
 
-print('''\n __ / 10 Based on results of experiments with MNIST data.''')
-print('''\n __ / 10 Based on results of experiments with ECG data.''')
+print('''\n __ / 25 Based on results of experiments with MNIST data.''')
+print('''\n __ / 25 Based on results of experiments with ECG data.''')
 
 print()
 print('='*70)
